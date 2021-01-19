@@ -25,4 +25,4 @@
    - [ ] b. User can tap the "Change text string" button to update the label with the text from the text field.  
    - [ ] c. If the text field is empty, update label with default text string.  
    
-
+![github](http://g.recordit.co/IWwdYwI7rN.gif)
