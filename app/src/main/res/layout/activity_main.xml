@@ -1,18 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<!--
+    Alex Ratkovec
+    Pre-work for codepath.org
+    January 18,2021
+ -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FF8B61"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/nameColorChange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop= "150dp"
+        android:text="Welcome Alex!"
+        android:textSize="40sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/colorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="250dp"
+        android:background="#99774D"
+        android:textColor="#E7E4D9"
+        android:text ="Click to change text color"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+
+</RelativeLayout>
